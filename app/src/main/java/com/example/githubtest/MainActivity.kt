@@ -5,18 +5,18 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
-    private var isTest=true
+    private var isTesting=true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if(!isTest){
-            isTest = false
+        if(!isTesting){
+            isTesting = false
             val count:Int = 2
             val cont2:Int =3
         }else{
-            isTest = true
+            isTesting = true
             val count:Int = 1
         }
 
