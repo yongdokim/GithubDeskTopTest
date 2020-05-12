@@ -12,10 +12,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         if(isTest){
-
+            isTest = false
+            val count:Int = 2
         }else{
-
+            isTest = true
+            val count:Int = 1
         }
+
 
     }
 }
