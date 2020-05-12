@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if(isTest){
+        if(!isTest){
             isTest = false
             val count:Int = 2
+            val cont2:Int =3
         }else{
             isTest = true
             val count:Int = 1
